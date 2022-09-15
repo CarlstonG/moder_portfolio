@@ -4,7 +4,7 @@ import { DesignCard } from "./DesignCard";
 import projImg1 from "../assets/img/1.png";
 import projImg2 from "../assets/img/lidekahome.PNG";
 import projImg3 from "../assets/img/csharp1.png";
-import projImg4 from "../assets/img/4.PNG";
+import projImg4 from "../assets/img/progimg4.PNG";
 import projImg5 from "../assets/img/2.png";
 import projImg6 from "../assets/img/3.jpg";
 import Design1 from "../assets/img/dan1.png"
@@ -87,11 +87,11 @@ export const Projects = () => {
       code: 'https://github.com/CarlstonG/Mabato_Version4'
     },
     {
-      title: "Crypto-Static - Web3 Status",
-      description: "React, Blockchain API",
+      title: "Fitness React",
+      description: "React, CSS",
       imgUrl: projImg4,
-      source: 'https://crypto-static.netlify.app/',
-      code: 'https://github.com/CarlstonG/CryptoStaticTools'
+      source: 'https://fitclub-1my.pages.dev/',
+      code: 'https://github.com/CarlstonG/fitness_boiler_react'
     },
     {
       title: "Python API",
@@ -107,6 +107,7 @@ export const Projects = () => {
       source: 'https://github.com/CarlstonG/virtual-event-starter-kit',
       code: 'https://www.100ms.live/'
     },
+
   ];
 
   return (
@@ -127,6 +128,7 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="second">Designing</Nav.Link>
                     </Nav.Item>
+                    
                     <Nav.Item>
                       <Nav.Link eventKey="third">Game</Nav.Link>
                     </Nav.Item>
