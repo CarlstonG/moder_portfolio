@@ -9,6 +9,7 @@ import projImg5 from "../assets/img/2.png";
 import projImg6 from "../assets/img/3.jpg";
 import Design1 from "../assets/img/dan1.png"
 import Map1 from "../assets/img/map.png"
+import Game01 from "../assets/img/game01.PNG"
 import Vizdak from "../assets/img/vizdak.png"
 import Game1 from "../assets/img/Illustration18.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -16,6 +17,19 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
+
+
+  const Game = [
+    {
+      title: "Python DB solution - Contribution",
+      description: "Python, Django, Unity, C#",
+      code: "https://github.com/CarlstonG/django-unity3d-example",
+      imgUrl: Game01,
+    },
+    
+
+  ]
+
 
   const designs = [
     {
@@ -166,7 +180,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Coming Soon...</p>
+                    <Row>
+                        {
+                          Game.map((design, index) => {
+                              return(
+                                <DesignCard 
+                             key={index}
+                             {...design}
+                             />
+                              )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
