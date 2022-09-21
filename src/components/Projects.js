@@ -83,15 +83,15 @@ export const Projects = () => {
       title: "GIGWIRE (Discontinued and was changed)",
       description: "VUE, Laravel, PHP, SQL ",
       imgUrl: projImg1,
-      source: 'https://github.com/CarlstonG/gigware-web',
-      code: 'https://store.allcampussecurity.com/'
+      source: 'https://store.allcampussecurity.com/',
+      code: 'https://github.com/CarlstonG/gigware-web'
     },
     {
       title: "Lidekahome - Ecomm",
       description: "Nuxt, Shopify - API, MangoDB, Strapi",
       imgUrl: projImg2,
-      source: 'https://store.allcampussecurity.com/',
-      code: 'https://github.com/CarlstonG/gigware-web'
+      source: 'https://lidekahome.nl/',
+      code: 'https://github.com/CarlstonG/lideka_German'
     },
     {
       title: "Admin - Enrollment",
