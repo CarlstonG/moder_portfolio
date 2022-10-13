@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/csharp1.png";
 import projImg4 from "../assets/img/progimg4.PNG";
 import projImg5 from "../assets/img/2.png";
 import projImg6 from "../assets/img/3.jpg";
+import projImg7 from "../assets/img/project7.PNG"
 import Design1 from "../assets/img/dan1.png"
 import Map1 from "../assets/img/map.png"
 import Game01 from "../assets/img/game01.PNG"
@@ -92,6 +93,13 @@ export const Projects = () => {
       imgUrl: projImg2,
       source: 'https://lidekahome.nl/',
       code: 'https://github.com/CarlstonG/lideka_German'
+    },
+    {
+      title: "Hubmind CRM Dash",
+      description: "Nextjs, React, Firebase, Tailwind",
+      imgUrl: projImg7,
+      source: 'https://github.com/CarlstonG/serverless_hubmind',
+      code: 'https://myhubmind.com/login'
     },
     {
       title: "Admin - Enrollment",
