@@ -14,6 +14,8 @@ import Game01 from "../assets/img/game01.PNG"
 import Vizdak from "../assets/img/vizdak.png"
 import Game1 from "../assets/img/Illustration18.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import Mobile1 from "../assets/img/mobile1.PNG"
+import Mobile2 from "../assets/img/mobile2.PNG"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -26,6 +28,20 @@ export const Projects = () => {
       description: "Python, Django, Unity, C#",
       code: "https://github.com/CarlstonG/django-unity3d-example",
       imgUrl: Game01,
+    },
+
+    {
+      title: "Lideka APP",
+      description: "React-Native, Firebase, Tailwind",
+      source: "https://play.google.com/store/apps/details?id=com.cchip.lideka&hl=en&gl=US",
+      code: "https://play.google.com/store/apps/details?id=com.cchip.lideka&hl=en&gl=US",
+      imgUrl: Mobile1,
+    },
+    {
+      title: "Recipe APP",
+      description: "React-Native, Tailwind",
+      code: "https://github.com/CarlstonG/Recipe-app",
+      imgUrl: Mobile2,
     },
     
 
@@ -152,7 +168,7 @@ export const Projects = () => {
                     </Nav.Item>
                     
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Game</Nav.Link>
+                      <Nav.Link eventKey="third">Game and App</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
