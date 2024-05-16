@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { DesignCard } from "./DesignCard";
+import precision from "../assets/img/precisiontech.png"
 import projImg1 from "../assets/img/1.png";
 import projImg2 from "../assets/img/lidekahome.PNG";
 import projImg3 from "../assets/img/csharp1.png";
@@ -102,6 +103,13 @@ export const Projects = () => {
       imgUrl: projImg1,
       source: 'https://store.allcampussecurity.com/',
       code: 'https://github.com/CarlstonG/gigware-web'
+    },
+    {
+      title: "PrecisionTech",
+      description: "ReactJS, Strapi, PostGresql, Typescript",
+      imgUrl: precision,
+      source: 'https://github.com/CarlstonG/precision_tech',
+      code: 'https://www.precisiontech-solutions.com/'
     },
     {
       title: "Lidekahome - Ecomm",
