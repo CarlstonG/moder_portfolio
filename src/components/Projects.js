@@ -1,13 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { DesignCard } from "./DesignCard";
-import precision from "../assets/img/precisiontech.png"
-import projImg1 from "../assets/img/1.png";
-import projImg2 from "../assets/img/lidekahome.PNG";
+import precision from "../assets/img/tags1.png"
+import projImg1 from "../assets/img/projImg1.png";
+import projImg2 from "../assets/img/exodrones.png";
 import projImg3 from "../assets/img/csharp1.png";
 import projImg4 from "../assets/img/progimg4.PNG";
 import projImg5 from "../assets/img/2.png";
 import projImg6 from "../assets/img/3.jpg";
+import projImg8 from "../assets/img/webflow.png";
 import projImg7 from "../assets/img/project7.PNG"
 import Design1 from "../assets/img/dan1.png"
 import Map1 from "../assets/img/map.png"
@@ -98,25 +99,25 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "GIGWIRE (Discontinued and was changed)",
-      description: "VUE, Laravel, PHP, SQL ",
+      title: "Office National",
+      description: "Shopify + Hydrogen + Strapi",
       imgUrl: projImg1,
-      source: 'https://store.allcampussecurity.com/',
+      source: 'https://www.officenational.com.au/shop/en/obb2cstore',
       code: 'https://github.com/CarlstonG/gigware-web'
     },
     {
       title: "PrecisionTech",
-      description: "ReactJS, Strapi, PostGresql, Typescript",
+      description: "WordPress",
       imgUrl: precision,
-      source: 'https://github.com/CarlstonG/precision_tech',
-      code: 'https://www.precisiontech-solutions.com/'
+      source: 'hhttps://www.tagwealthinternational.com/',
+      code: 'hhttps://www.tagwealthinternational.com/'
     },
     {
-      title: "Lidekahome - Ecomm",
+      title: "Exodrone - Ecomm",
       description: "Nuxt, Shopify - API, MangoDB, Strapi",
       imgUrl: projImg2,
-      source: 'https://lidekahome.nl/',
-      code: 'https://github.com/CarlstonG/lideka_German'
+      source: 'https://github.com/CarlstonG/lideka_German',
+      code: 'https://exodrones.com/'
     },
     {
       title: "Hubmind CRM Dash",
@@ -152,6 +153,13 @@ export const Projects = () => {
       imgUrl: projImg6,
       source: 'https://github.com/CarlstonG/virtual-event-starter-kit',
       code: 'https://www.100ms.live/'
+    },
+    {
+      title: "ClickMinded",
+      description: "Webflow",
+      imgUrl: projImg8,
+      source: 'https://www.clickminded.com/',
+      code: 'https://www.clickminded.com/'
     },
 
   ];
