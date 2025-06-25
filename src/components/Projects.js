@@ -99,6 +99,34 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "ClickMinded",
+      description: "Webflow",
+      imgUrl: projImg8,
+      source: 'https://www.clickminded.com/',
+      code: 'https://www.clickminded.com/'
+    },
+    {
+      title: "Love Hair Salon",
+      description: "Webflow",
+      imgUrl: require("../assets/img/salon.png"),
+      source: 'https://lovehairhk.com/',
+      code: 'https://lovehairhk.com/'
+    },
+    {
+      title: "Mito Health",
+      description: "Webflow",
+      imgUrl: require("../assets/img/health.png"),
+      source: 'https://mitohealth.com/',
+      code: 'https://mitohealth.com/'
+    },
+    {
+      title: "Heads Up For Tails (HUFT)",
+      description: "Webflow",
+      imgUrl: require("../assets/img/huft.png"),
+      source: 'https://headsupfortails.com/',
+      code: 'https://headsupfortails.com/'
+    },
+    {
       title: "Office National",
       description: "Shopify + Hydrogen + Strapi",
       imgUrl: projImg1,
@@ -154,14 +182,6 @@ export const Projects = () => {
       source: 'https://github.com/CarlstonG/virtual-event-starter-kit',
       code: 'https://www.100ms.live/'
     },
-    {
-      title: "ClickMinded",
-      description: "Webflow",
-      imgUrl: projImg8,
-      source: 'https://www.clickminded.com/',
-      code: 'https://www.clickminded.com/'
-    },
-
   ];
 
   return (

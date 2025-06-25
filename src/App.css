@@ -633,3 +633,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 800;
   color: #fff;
 }
+
+@media (max-width: 600px) {
+  .project .nav.nav-pills {
+    width: 100%;
+    flex-direction: column !important;
+    border-radius: 20px;
+    min-width: 0;
+  }
+  .project .nav.nav-pills .nav-item {
+    width: 100%;
+  }
+  .project .nav.nav-pills .nav-link {
+    font-size: 18px;
+    padding: 16px 0;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+  .nav-link#projects-tabs-tab-first {
+    border-radius: 20px 20px 0 0 !important;
+  }
+  .nav-link#projects-tabs-tab-third {
+    border-radius: 0 0 20px 20px !important;
+  }
+}
